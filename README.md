@@ -27,3 +27,30 @@ GPU 서버 연동 및 연동 이후 LLM모델 데이터 이상 여부 테스트�
 ### 핵심 기술 판단
 - LLM 모델의 코드 분할을 통해 적은 리소스로 실시간 구글 클라우드 GPU 서버 구현
 - 서버 구동 및 로그 확인을 통한 LLM 모델 입/출력 데이터 이상 여부 체크
+
+## 구현
+
+### 초기 구현 및 연동 단계
+<img width="1137" height="883" alt="image" src="https://github.com/user-attachments/assets/da9873dd-d416-4f13-818f-946ce6824c22" />
+
+- 초기 server.py 업로드 후, server.py에 fast.api를 통한 홈페이지 디자인.
+
+<img width="1455" height="864" alt="image" src="https://github.com/user-attachments/assets/9893479d-8fa6-41d5-ad98-7b59b3e89bcd" />
+- PDF 데이터 입력후 LLM 모델에서 중국어가 출력되는 모습, 아직 한국어를 강제하기 이전
+
+<img width="887" height="779" alt="image" src="https://github.com/user-attachments/assets/5e163c66-a7b1-4b07-b9c6-00c721da13fb" />
+
+- 이후 engine.py 업로드 후, 홈페이지 접속 및 PDF 데이터 입력 테스트시 나온 로그
+
+### 중간 테스트 단계
+<img width="1010" height="434" alt="image" src="https://github.com/user-attachments/assets/31ada75f-c362-4853-9c30-b9645136f9fa" />
+<img width="1008" height="784" alt="image" src="https://github.com/user-attachments/assets/792e122e-555b-4cf5-b640-0c6085aacd93" />
+- 적절한 책에 대한 자료가 없어, 출석 지침 PDF를 입력, 해당 PDF에서도 문제가 영어로 출력되는 모습.
+
+### 최종
+<img width="979" height="376" alt="image" src="https://github.com/user-attachments/assets/c5ba601f-3ea3-4c0e-8312-9c14af0a92a6" />
+<img width="983" height="748" alt="image" src="https://github.com/user-attachments/assets/14a3889e-33b8-4153-9509-b98334e4a151" />
+- 책 내용에 대한 요약을 성공적이나, 문제가 영어로 출력되는 모습.
+
+##프로젝트 결론
+
