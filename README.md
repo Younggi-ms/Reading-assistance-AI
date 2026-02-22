@@ -14,7 +14,6 @@
 ### 소프트 웨어
 - Vscode Debugging
 - 기초적 LLM 모델[Qwen/Qwen2.5-7B-Instruct]
-### 하드웨어 
 - 구글 클라우드 [GPU 서버]
 
 ## 본인 담당 역할 및 구현 역량
